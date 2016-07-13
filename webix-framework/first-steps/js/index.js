@@ -6,9 +6,15 @@ webix.ready(function() {
       {template: "Row 1"},
       {view: "resizer"},
       {cols: [
-        {template: "Column 1"},
+        {
+          template: "Column 1",
+          height: 50
+        },
         {view: "resizer"},
-        {template: "Column 2"}
+        {
+          template: "Column 2",
+          width: 150
+        }
       ]}
     ]
   })
